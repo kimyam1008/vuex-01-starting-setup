@@ -11,7 +11,7 @@ export default {
         //     this.$store.commit('increment');
         // }
         // ...mapActions(['increment', 'increase'])
-        ...mapActions({
+        ...mapActions('numbers',{
             inc: 'increment',
             increase: 'increase'
         })
